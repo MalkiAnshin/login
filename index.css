@@ -1,0 +1,31 @@
+body {
+    background-color: #d81b2b;
+}
+
+#form {
+    font-size: 50px;
+    font-style: italic;
+    padding: 10%;
+    margin: 10%;
+}
+
+
+  
+.heart-btn {
+    padding: 50px;;
+    border-radius: 50%;
+    background-color: rgb(75, 72, 73);
+    border: none;
+    color: rgb(238, 38, 55);
+    font-size: 20px;
+    font-style: italic;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heart-btn::before {
+    content: '\2764'; /* קוד המיקום של התו לב */
+  }
